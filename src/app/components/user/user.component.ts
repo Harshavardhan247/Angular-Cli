@@ -51,7 +51,7 @@ export class UserComponent implements OnInit {
       }
 
     }
-    this.hobbies.pop(hobby);
+    // this.hobbies.pop(hobby);
   }
 
 }

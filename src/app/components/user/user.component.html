@@ -8,6 +8,23 @@
 
 <button (click)="onClick()">Click Me</button>
 
+<h1>Edit User</h1>
+
+<form>
+  <div>
+    <label for="name">Name: </label><br>
+    <input type="text" [(ngModel)]="name" name="name">
+  </div>
+  <div>
+    <label for="age">Age: </label><br>
+    <input type="number" [(ngModel)]="age" >
+  </div>
+  <div>
+    <label for="email">Email:</label><br>
+    <input type="text" [(ngModel)]="email">
+  </div>
+</form>
+
 <h1>Hobbies</h1>
 
 <form (submit)="addHobby(hobby.value)">
